@@ -1,0 +1,2 @@
+# Avro regenerates these sources with LF line endings on every Maven build.
+infrastructure/kafka/kafka-model/src/main/java/**/*.java text eol=lf

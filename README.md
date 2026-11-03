@@ -16,6 +16,8 @@ To run the project please follow the steps mentioned below:
 
 5.) Run "mvn clean install" to make sure the project compiles and build successfully
 
+    To also build the service container images, start Docker and run "mvn clean install -Dspring-boot.build-image.skip=false"
+
 6.) Install and run standalone postgres database on your local system that runs on 5432 port by default. 
 
 7.) Run docker compose up commands for zookeeper, init_kafka and kafka_cluster yaml files unders infrastructure/docker-compose folder
